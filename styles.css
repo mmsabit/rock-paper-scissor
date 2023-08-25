@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.player, .computer {
+    flex: 1;
+}
+.ps, .cs{
+    flex: 1;
+}
+
+.ps img, .cs img{
+    width: 250px;
+    cursor: pointer;
+}
+
+.player img, .computer img {
+    width: 100px;
+    cursor: pointer; 
+    
+}
+
+.result {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
